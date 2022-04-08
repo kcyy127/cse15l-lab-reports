@@ -20,3 +20,8 @@ An unordered list of
 ---
 
 Creating `inline code`
+
+```Python
+print("This is a code block")
+print("in Python")
+```
