@@ -1,0 +1,1 @@
+![Image](screenshot-seal-page.png)
