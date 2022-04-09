@@ -22,7 +22,7 @@ $ ssh [account]@ieng6.ucsd.edu
 and type in your password when prompted. 
 
 Say yes to the following message if this is the first time you are logging on.
-```bash
+```
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't
 be established.
 RSA key fingerprint is
@@ -53,6 +53,7 @@ We can try some commands on the remote server:
 The results of these commands can be seen here:
 
 ![Image](/images/commands1.png)
+
 ![Image](/images/commands2.png)
 
 ## Step 4: Moving Files with `scp`
@@ -132,6 +133,7 @@ The consolidated command to run all three steps would be
 $ scp WhereAmI.java cs15lsp22avs@ieng6.ucsd.edu:~/; ssh cs15lsp22avs@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 ```
 which would yield the following output:
+
 ![Image](/images/optimization.png)
 
 The arguments after `ssh [account]@ieng6.ucsd.edu` are commands that would run on the remote server, and the semicolons separate individual commands that need to be run.
