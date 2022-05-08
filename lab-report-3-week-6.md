@@ -53,6 +53,10 @@ Compiling and running tests on ieng6
 
 ![Tests on ieng6](/images/report-3/ieng6-make-test.png)
 
-Unable to `ssh ieng6 "cd markdown-parse;make test`. Error message
+Attempted to combine commands into 
+```bash
+scp -r . ieng6:~/markdown-parse; ssh ieng6 "cd markdown-parse; make test"
+```
+ , however, unable to compile `MarkdownParse.java` with `ssh` command. Error message:
 
 ![Error](/images/report-3/error.png)
