@@ -8,7 +8,7 @@ Ran `vimdiff` for the 2 result files.
 
 ## 1st test file
 
-[510.md](/report-5/510.md)
+[510.md](https://github.com/kcyy127/cse15l-lab-reports/blob/main/report-5/510.md)
 
 Expected output (as per the [CommonMark demo site](https://spec.commonmark.org/dingus/))
 
@@ -30,7 +30,7 @@ Lines 67 and 68 in `MarkdownParse.java` fail to catch `]` and `(` that are far a
 
 ## 2nd test file
 
-[577.md](/report-5/577.md)
+[577.md](https://github.com/kcyy127/cse15l-lab-reports/blob/main/report-5/577.md)
 
 Expected output (as per the [CommonMark demo site](https://spec.commonmark.org/dingus/))
 
